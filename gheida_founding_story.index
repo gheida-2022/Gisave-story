@@ -104,21 +104,118 @@
     <p><strong>Digital inclusion and innovation</strong> — using technology not as a luxury, but as a tool for equity — making mentorship, reporting, and educational resources available even in underserved, remote communities.</p>
   </div>
 
-  <div class="section">
-    <div class="section-label">Recognition & milestones</div>
-    <ul class="milestone-list">
-      <li><span class="milestone-dot"></span>Winner, Young Scientists Kenya — Social &amp; Behavioral Sciences (2021)</li>
-      <li><span class="milestone-dot"></span>Pwani Women Award (2023)</li>
-      <li><span class="milestone-dot"></span>Millennium Fellowship (2023)</li>
-      <li><span class="milestone-dot"></span>Ban Ki-moon Foundation Scholar</li>
-      <li><span class="milestone-dot"></span>ITU Generation Connect Youth Envoy</li>
-      <li><span class="milestone-dot"></span>Presidential Recognition, Kenya (2025)</li>
-      <li><span class="milestone-dot"></span>Innovation for Social Change Award (2025)</li>
-      <li><span class="milestone-dot"></span>Global Internet Award (2025)</li>
-      <li><span class="milestone-dot"></span>Women in STEM Award Kenya (2026)</li>
-      <li><span class="milestone-dot"></span>Community Engagement Exchange Program, Arizona State University (2026)</li>
-    </ul>
+  <<div class="section">
+  <div class="section-label">Recognition & milestones</div>
+
+  <div class="awards-grid">
+
+    <div class="award-card">
+      <div class="award-icon">🏆</div>
+      <div class="award-year">2021</div>
+      <div class="award-title">Young Scientists Kenya — Social & Behavioral Sciences</div>
+      <div class="award-desc">Won the national competition for developing Gisave, a tech platform to report GBV and connect girls to mentors and STEM opportunities. This was the moment Gisave was validated as a scalable solution, not just a personal mission.</div>
+    </div>
+
+    <div class="award-card">
+      <div class="award-icon">🌺</div>
+      <div class="award-year">2023</div>
+      <div class="award-title">Pwani Women Award</div>
+      <div class="award-desc">Recognized as an outstanding young woman leader from Kenya's coastal region making a measurable difference in the lives of girls and women through innovation and community work.</div>
+    </div>
+<div class="section">
+  <div class="section-label">Recognition & milestones</div>
+
+  <div class="awards-grid">
+    <div class="award-card">
+      <div class="award-icon">🌍</div>
+      <div class="award-year">2023</div>
+      <div class="award-title">Millennium Fellowship</div>
+      <div class="award-desc">Selected as a Millennium Fellow by the United Nations Academic Impact and MCN — one of a global cohort of university students leading social change on their campuses and communities.</div>
+    </div>
+
+    <div class="award-card">
+      <div class="award-icon">🕊️</div>
+      <div class="award-year">Ongoing</div>
+      <div class="award-title">Ban Ki-moon Foundation Scholar</div>
+      <div class="award-desc">Named a scholar by the foundation of the former UN Secretary-General, in recognition of commitment to sustainable development, gender equality, and youth leadership in Africa.</div>
+    </div>
+
+    <div class="award-card">
+      <div class="award-icon">📡</div>
+      <div class="award-year">Ongoing</div>
+      <div class="award-title">ITU Generation Connect Youth Envoy</div>
+      <div class="award-desc">Appointed by the International Telecommunication Union as a Youth Envoy — representing young people's voice in global conversations on digital inclusion, connectivity, and technology access.</div>
+    </div>
+
+    <div class="award-card">
+      <div class="award-icon">🇰🇪</div>
+      <div class="award-year">2025</div>
+      <div class="award-title">Presidential Recognition, Kenya</div>
+      <div class="award-desc">Recognized by the President of Kenya for outstanding contributions to girls' education, gender equality, and youth innovation — one of the country's highest forms of acknowledgment for a young leader.</div>
+    </div>
+
+    <div class="award-card">
+      <div class="award-icon">💡</div>
+      <div class="award-year">2025</div>
+      <div class="award-title">Innovation for Social Change Award</div>
+      <div class="award-desc">Awarded for building technology-driven solutions that directly address social inequalities facing girls and women in underserved communities across Kenya.</div>
+    </div>
+
+    <div class="award-card">
+      <div class="award-icon">🌐</div>
+      <div class="award-year">2025</div>
+      <div class="award-title">Global Internet Award</div>
+      <div class="award-desc">Recognized at the World Internet Conference for work in digital inclusion and using internet-based tools to bridge the education and opportunity gap for girls in Africa.</div>
+    </div>
+
+    <div class="award-card">
+      <div class="award-icon">🔬</div>
+      <div class="award-year">2026</div>
+      <div class="award-title">Women in STEM Award Kenya</div>
+      <div class="award-desc">Honored for championing STEM education and mentorship for girls across Kenya, and for building pathways that bring more young women into science, technology, engineering, and mathematics.</div>
+    </div>
+
+    <div class="award-card">
+      <div class="award-icon">🎓</div>
+      <div class="award-year">2026</div>
+      <div class="award-title">Community Engagement Exchange — Arizona State University</div>
+      <div class="award-desc">Selected for this U.S. State Department-supported program, joining changemakers from across the globe to deepen skills in community engagement, leadership, and social innovation.</div>
+    </div>
+
   </div>
+
+  <div class="media-section">
+    <div class="section-label">Media features & coverage</div>
+    <p class="media-intro">Gheida's work with Gisave has been featured across national and international media platforms, amplifying the conversation around girls' education, GBV, and STEM in Africa.</p>
+    <div class="media-grid">
+      <div class="media-card">
+        <div class="media-dot dot-red">DW</div>
+        <div class="media-name">DW Swahili</div>
+        <div class="media-desc">International broadcast on Gisave's work with girls in coastal Kenya</div>
+      </div>
+      <div class="media-card">
+        <div class="media-dot dot-blue">KTN</div>
+        <div class="media-name">KTN Kenya</div>
+        <div class="media-desc">Feature on girls' education and GBV tech solutions in underserved counties</div>
+      </div>
+      <div class="media-card">
+        <div class="media-dot dot-green">KBC</div>
+        <div class="media-name">KBC Kenya</div>
+        <div class="media-desc">Coverage of Gisave's STEM mentorship programs and school outreach</div>
+      </div>
+      <div class="media-card">
+        <div class="media-dot dot-purple">NMG</div>
+        <div class="media-name">Nation Media</div>
+        <div class="media-desc">Profile on Gheida as a young woman innovator driving change in education</div>
+      </div>
+      <div class="media-card">
+        <div class="media-dot dot-teal">CD</div>
+        <div class="media-name">China Daily</div>
+        <div class="media-desc">International feature on African youth innovation at the World Internet Conference</div>
+      </div>
+    </div>
+  </div>
+</div>
 
   <div class="section">
     <div class="section-label">The vision</div>
