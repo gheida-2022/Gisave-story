@@ -1,0 +1,186 @@
+
+<style>
+  * { box-sizing: border-box; }
+  body { margin: 0; padding: 0; }
+  .page { max-width: 680px; margin: 0 auto; padding: 2rem 1.5rem; font-family: var(--font-sans); color: var(--color-text-primary); }
+  .eyebrow { font-size: 11px; letter-spacing: 0.08em; text-transform: uppercase; color: var(--color-text-tertiary); font-weight: 500; margin-bottom: 0.5rem; }
+  h1 { font-size: 22px; font-weight: 500; margin: 0 0 0.25rem; color: var(--color-text-primary); }
+  .tagline { font-size: 14px; color: var(--color-text-secondary); margin-bottom: 2rem; font-style: italic; }
+  .section { margin-bottom: 1.75rem; }
+  .section-label { font-size: 11px; letter-spacing: 0.08em; text-transform: uppercase; color: var(--color-text-tertiary); font-weight: 500; margin-bottom: 0.5rem; border-top: 1px solid var(--color-border-tertiary); padding-top: 0.75rem; }
+  p { font-size: 15px; line-height: 1.75; margin: 0 0 1rem; color: var(--color-text-primary); }
+  p:last-child { margin-bottom: 0; }
+  .stat-row { display: flex; gap: 12px; flex-wrap: wrap; margin: 1rem 0; }
+  .stat-card { background: var(--color-background-secondary); border: 1px solid var(--color-border-tertiary); border-radius: 10px; padding: 0.75rem 1rem; flex: 1; min-width: 140px; }
+  .stat-num { font-size: 22px; font-weight: 500; color: var(--color-text-primary); }
+  .stat-desc { font-size: 12px; color: var(--color-text-secondary); margin-top: 2px; line-height: 1.4; }
+  .sdg-pills { display: flex; gap: 8px; flex-wrap: wrap; margin-top: 0.75rem; }
+  .pill { padding: 4px 12px; border-radius: 20px; font-size: 12px; font-weight: 500; }
+  .pill-teal { background: #E1F5EE; color: #085041; }
+  .pill-purple { background: #EEEDFE; color: #3C3489; }
+  .pill-coral { background: #FAECE7; color: #712B13; }
+  .pill-blue { background: #E6F1FB; color: #0C447C; }
+  @media (prefers-color-scheme: dark) {
+    .pill-teal { background: #085041; color: #9FE1CB; }
+    .pill-purple { background: #26215C; color: #AFA9EC; }
+    .pill-coral { background: #4A1B0C; color: #F5C4B3; }
+    .pill-blue { background: #042C53; color: #B5D4F4; }
+  }
+  .quote-block { border-left: 3px solid #1D9E75; padding: 0.75rem 1rem; margin: 1.25rem 0; background: var(--color-background-secondary); border-radius: 0 8px 8px 0; }
+  .quote-block p { font-size: 14px; font-style: italic; color: var(--color-text-secondary); margin: 0; }
+  .milestone-list { list-style: none; margin: 0; padding: 0; }
+  .milestone-list li { display: flex; gap: 10px; padding: 0.4rem 0; font-size: 14px; color: var(--color-text-secondary); align-items: flex-start; }
+  .milestone-dot { width: 7px; height: 7px; border-radius: 50%; background: #1D9E75; margin-top: 6px; flex-shrink: 0; }
+  .copy-btn { background: var(--color-background-secondary); border: 1px solid var(--color-border-secondary); color: var(--color-text-secondary); border-radius: 8px; padding: 6px 14px; font-size: 13px; cursor: pointer; margin-top: 1.5rem; }
+  .copy-btn:hover { border-color: var(--color-border-primary); color: var(--color-text-primary); }
+</style>
+
+<div class="page">
+  <div class="eyebrow">Founding story · Girls I-Save Africa (Gisave)</div>
+  <h1>I Grew Up Watching Girls Disappear</h1>
+  <p class="tagline">By Gheida Abdala Omar — Founder, Gisave</p>
+
+  <div class="section">
+    <div class="section-label">The beginning</div>
+    <p>I grew up in Malindi, a coastal town in Kilifi County, Kenya, where the ocean is beautiful and opportunity is scarce — especially if you are a girl. Long before I understood words like "gender inequality" or "systemic barriers," I understood what it looked like to watch a girl vanish from your life.</p>
+    <p>My elder sisters were the first to go. One by one, each was pulled out of school and into early marriage before she could finish. I was young enough that I did not fully understand what had happened — only that they were there, and then they were not. Their futures had been decided for them, quietly, without their consent.</p>
+    <p>Then, when I was in Form 2, it happened to my best friend. I watched her leave school against her will, and something shifted in me permanently. This was not bad luck. This was a pattern — one that repeated itself across my community, year after year, girl after girl.</p>
+  </div>
+
+  <div class="quote-block">
+    <p>"I kept asking myself: what is the difference between me and the girls who had to leave? The honest answer was a scholarship — and the courage of one person who believed I was worth investing in."</p>
+  </div>
+
+  <div class="section">
+    <div class="section-label">The moment that changed everything</div>
+    <p>In 2018, I received a scholarship to attend Matuga Girls High School. That opportunity did not just change my future — it showed me, in stark relief, how fragile a girl's education is in communities like mine. Without that scholarship, I would likely have faced the same fate as my sisters. I carry that knowledge everywhere I go.</p>
+    <p>Even at Matuga, the dropouts continued. Girls I had come to know would disappear mid-term — pulled away by pregnancy, poverty, or pressure to marry. Each time, I felt the urgency deepen. The problem was not a lack of ambition among these girls. It was the absence of systems designed to protect them.</p>
+    <p>That question — <em>how can technology and education protect girls and give them a second chance?</em> — became the foundation of everything I have built since.</p>
+  </div>
+
+  <div class="section">
+    <div class="section-label">The scale of the problem</div>
+    <p>What I witnessed in Malindi is not unique to my community. The data confirms what I saw with my own eyes:</p>
+
+    <div class="stat-row">
+      <div class="stat-card">
+        <div class="stat-num">132M</div>
+        <div class="stat-desc">Girls out of school globally — UNESCO, 2023</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-num">12M</div>
+        <div class="stat-desc">Girls married before age 18 every year — UNICEF</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-num">40%</div>
+        <div class="stat-desc">Of girls in sub-Saharan Africa do not complete secondary school</div>
+      </div>
+    </div>
+
+    <p>In Kenya's coastal and arid counties — including Kilifi, Kwale, Tana River, and Wajir — these numbers are even starker. Early marriage, gender-based violence, and teenage pregnancy are the leading reasons girls drop out of school. For many, there is no safe place to report abuse, no mentor to guide them toward a different path, and no digital resource designed with them in mind.</p>
+    <p>The gap is not a lack of willing girls. It is a lack of infrastructure — safe reporting systems, accessible mentorship, and communities that believe in their potential.</p>
+  </div>
+
+  <div class="section">
+    <div class="section-label">Building Gisave</div>
+    <p>In 2021, I channeled my lived experience and my passion for technology into Girls I-Save Africa — Gisave. I designed it as a tech-enabled platform with three core functions: a safe, confidential system for reporting gender-based violence; direct connections to counselors and support networks; and pathways into STEM mentorship and opportunity.</p>
+    <p>The premise was straightforward: if the systems that are supposed to protect girls do not reach them, we build new ones that do.</p>
+    <p>That year, Gisave won the Young Scientists Kenya National Competition in the Social and Behavioral Sciences category. It was my first signal that this was not just a personal mission — it was a scalable solution others believed in too.</p>
+    <p>Since then, I have taken Gisave from a competition project into a living movement. I have visited over 20 schools, mentored more than 300 girls directly, and reached over 5,000 students through outreach programs across 5 counties — Mombasa, Kilifi, Kwale, Tana River, and Wajir. We have opened an office, launched structured mentorship programs, and are actively building the digital platform that will extend this work across Africa.</p>
+  </div>
+
+  <div class="section">
+    <div class="section-label">Thematic focus areas</div>
+    <p>Gisave operates at the intersection of technology, education, and gender justice. Our work is anchored in four interconnected areas:</p>
+    <div class="sdg-pills" style="margin-bottom:0.75rem;">
+      <span class="pill pill-teal">SDG 4 · Quality Education</span>
+      <span class="pill pill-purple">SDG 5 · Gender Equality</span>
+      <span class="pill pill-coral">SDG 16 · Peace & Justice</span>
+      <span class="pill pill-blue">SDG 10 · Reduced Inequalities</span>
+    </div>
+    <p style="margin-top:0.75rem;"><strong>Girls' education and school retention</strong> — keeping girls enrolled, safe, and progressing through secondary school and beyond, with a focus on the most vulnerable counties in Kenya.</p>
+    <p><strong>GBV prevention and response</strong> — building safe, accessible reporting infrastructure so girls can seek help without fear, and ensuring they are connected to the right support quickly.</p>
+    <p><strong>STEM access and mentorship</strong> — introducing girls to science, technology, robotics, and digital skills, and connecting them to female role models who show them what is possible.</p>
+    <p><strong>Digital inclusion and innovation</strong> — using technology not as a luxury, but as a tool for equity — making mentorship, reporting, and educational resources available even in underserved, remote communities.</p>
+  </div>
+
+  <div class="section">
+    <div class="section-label">Recognition & milestones</div>
+    <ul class="milestone-list">
+      <li><span class="milestone-dot"></span>Winner, Young Scientists Kenya — Social &amp; Behavioral Sciences (2021)</li>
+      <li><span class="milestone-dot"></span>Pwani Women Award (2023)</li>
+      <li><span class="milestone-dot"></span>Millennium Fellowship (2023)</li>
+      <li><span class="milestone-dot"></span>Ban Ki-moon Foundation Scholar</li>
+      <li><span class="milestone-dot"></span>ITU Generation Connect Youth Envoy</li>
+      <li><span class="milestone-dot"></span>Presidential Recognition, Kenya (2025)</li>
+      <li><span class="milestone-dot"></span>Innovation for Social Change Award (2025)</li>
+      <li><span class="milestone-dot"></span>Global Internet Award (2025)</li>
+      <li><span class="milestone-dot"></span>Women in STEM Award Kenya (2026)</li>
+      <li><span class="milestone-dot"></span>Community Engagement Exchange Program, Arizona State University (2026)</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <div class="section-label">The vision</div>
+    <p>Gisave was born from grief — from watching people I loved lose their futures to systems that were never designed with them in mind. But it is being built with conviction: that every girl, no matter her county, her income, or her circumstances, deserves the tools to stay in school, stay safe, and imagine a future she chose for herself.</p>
+    <p>We are not building charity. We are building infrastructure — the kind that should have already existed for the girls who came before us.</p>
+    <p>I am Gheida Abdala Omar. I am building the platform I wish had existed when my best friend needed it most.</p>
+  </div>
+
+  <button class="copy-btn" onclick="copyStory()">Copy full story as plain text</button>
+</div>
+
+<script>
+function copyStory() {
+  const text = `FOUNDING STORY — Girls I-Save Africa (Gisave)
+By Gheida Abdala Omar
+
+I Grew Up Watching Girls Disappear
+
+I grew up in Malindi, a coastal town in Kilifi County, Kenya, where the ocean is beautiful and opportunity is scarce — especially if you are a girl. Long before I understood words like "gender inequality" or "systemic barriers," I understood what it looked like to watch a girl vanish from your life.
+
+My elder sisters were the first to go. One by one, each was pulled out of school and into early marriage before she could finish. I was young enough that I did not fully understand what had happened — only that they were there, and then they were not. Their futures had been decided for them, quietly, without their consent.
+
+Then, when I was in Form 2, it happened to my best friend. I watched her leave school against her will, and something shifted in me permanently. This was not bad luck. This was a pattern — one that repeated itself across my community, year after year, girl after girl.
+
+I kept asking myself: what is the difference between me and the girls who had to leave? The honest answer was a scholarship — and the courage of one person who believed I was worth investing in.
+
+In 2018, I received a scholarship to attend Matuga Girls High School. That opportunity did not just change my future — it showed me, in stark relief, how fragile a girl's education is in communities like mine. Without that scholarship, I would likely have faced the same fate as my sisters. I carry that knowledge everywhere I go.
+
+Even at Matuga, the dropouts continued. Girls I had come to know would disappear mid-term — pulled away by pregnancy, poverty, or pressure to marry. Each time, I felt the urgency deepen. The problem was not a lack of ambition among these girls. It was the absence of systems designed to protect them.
+
+That question — how can technology and education protect girls and give them a second chance? — became the foundation of everything I have built since.
+
+THE SCALE OF THE PROBLEM
+
+What I witnessed in Malindi is not unique to my community. UNESCO reports that 132 million girls are currently out of school globally. UNICEF estimates 12 million girls are married before age 18 every year. In sub-Saharan Africa, 40% of girls do not complete secondary school. In Kenya's coastal and arid counties — including Kilifi, Kwale, Tana River, and Wajir — these numbers are even starker. Early marriage, gender-based violence, and teenage pregnancy are the leading reasons girls drop out. For many, there is no safe place to report abuse, no mentor to guide them toward a different path, and no digital resource designed with them in mind.
+
+The gap is not a lack of willing girls. It is a lack of infrastructure.
+
+BUILDING GISAVE
+
+In 2021, I channeled my lived experience into Girls I-Save Africa — Gisave — a tech-enabled platform with three core functions: a safe, confidential system for reporting gender-based violence; direct connections to counselors and support networks; and pathways into STEM mentorship and opportunity.
+
+Gisave won the Young Scientists Kenya National Competition in 2021. Since then, I have visited over 20 schools, mentored more than 300 girls directly, reached over 5,000 students through outreach programs, and expanded across 5 counties in Kenya.
+
+THEMATIC FOCUS AREAS
+- Girls' education and school retention (SDG 4)
+- GBV prevention and response (SDG 5, SDG 16)
+- STEM access and mentorship for girls
+- Digital inclusion and innovation (SDG 10)
+
+THE VISION
+
+Gisave was born from grief — from watching people I loved lose their futures to systems that were never designed with them in mind. But it is being built with conviction: that every girl deserves the tools to stay in school, stay safe, and imagine a future she chose for herself.
+
+We are not building charity. We are building infrastructure — the kind that should have already existed for the girls who came before us.
+
+I am Gheida Abdala Omar. I am building the platform I wish had existed when my best friend needed it most.`;
+
+  navigator.clipboard.writeText(text).then(() => {
+    const btn = document.querySelector('.copy-btn');
+    btn.textContent = 'Copied!';
+    setTimeout(() => btn.textContent = 'Copy full story as plain text', 2000);
+  });
+}
+</script>
